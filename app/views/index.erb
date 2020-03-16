@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   
 <ul>
 <% @articles.each do |article| %>
@@ -7,4 +8,14 @@
     </a>
   </li>
 <% end %>
+=======
+<ul>
+<% @article.each do |t| %>
+<li>
+  <a href="/articles/<%= article.id %>">
+    <%= article.title %>
+  </a>
+</li>
+<% end %>
+>>>>>>> fe8aa34e0ccd1b6d575688ab687d91fd67325720
 </ul>
